@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Happy Path</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <style>
+        .box {
+            width: 930px;
+            height: 530px;
+            background: transparent;
+            box-shadow: 0 0 10px rgb(224, 224, 200);
+            border-radius: 20px;
+            backdrop-filter: blur(2px);
+            
+        }
+        nav {
+            width: 60%;
+            background-color: orangered;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            border-bottom-right-radius: 20px;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: ease;
+        }
+        nav ul li a:hover {
+            color: black;
+        }
+        .searchbox input{
+            float: right;
+            margin: -32px 40px;
+            width: 27%;
+            height: 30px;
+            background: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid white;
+            letter-spacing: 1px;
+            font-size: small;
+        }
+        .searchbox ::placeholder, .searchboxinput {
+            color: white;
+            font-size: small;
+            padding-bottom: 3px;
+        }
+        .searchbox input:hover {
+            border-bottom: 2px solid orangered;
+        }
+        .icon {
+            float: right;
+            margin: -35px 40px;
+            color: white;
+        }
+        .icon i {
+            font-size: small;
+            transition: ease;
+        }
+        .icon i:hover {
+            color: orangered;
+        }
+        .socialmedia {
+            float: right;
+            width: 50px;
+            height: 180px;
+            background-color: orangered;
+            margin-top: 226px;
+            border-bottom-right-radius: 20px;
+            border-top-left-radius: 20px;
+        }
+        .icon1 i {
+            margin: 20px;
+            color: white;
+        }
+        .icon1 i:hover {
+            color: black;
+        }
+        .box1 {
+            display: flex;
+            margin-top: 40px;
+            
+
+        }
+        .subscribe-box {
+            width: 250px;
+            height: 300px;
+            margin: 40px;
+            border: 5px solid white;
+            border-radius: 5%;
+            background:rgb(41, 41, 78);
+            color: white;
+            padding: 10px 10px;
+        }
+        .subscribe-box:hover {
+            border: 5px solid orangered;
+        }
+        .subscribe-box h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            margin-top: 1px;
+            color: orangered;
+        }
+        .subscribe-box input{
+            width: 90%;
+            background: transparent;
+            outline: none;
+            border: none;
+            color: white;
+            border-bottom: 2px solid white;
+            letter-spacing: 1px;
+        }
+        .subscribe-box input:hover {
+            border-bottom: 2px solid orangered;
+        }
+        .subscribe-box ::placeholder{
+            color: white;
+            font-size: small;
+            font-family: 'Times New Roman';
+        }
+        .subscribe-box h5 a{
+            color: orangered;
+        }
+        .subscribe-box h5 a:hover{
+            color: blue;
+        }
+        .subscribe-box button {
+            margin-left: 80px;
+            padding: 6px 18px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+            font-family: 'Times New Roman';
+            font-size: small;
+        }
+        .subscribe-box button:hover {
+            color: white;
+            background: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div style="background-image: url(2.jpg);
+        background-position: center; background-size: cover;">     
+    
+    <div class="box">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+                <li><a href="stories.html">STORIES</a></li>
+            </ul>
+    </nav>
+    <div class="searchbox">
+        <input class="srch" type="search" name="" id="" placeholder="Type to search">
+        <p class="icon"><i class="bi-search"></i></p>
+    </div>
+    <div class="socialmedia">
+        <p class="icon1"><a href="https://www.facebook.com/janfel.gementiza.9/">
+            <i class="bi bi-facebook"></i></a></p>
+        <p class="icon1"><a href="https://www.instagram.com/jmmygmtz/">
+            <i class="bi bi-instagram"></i></a></p>
+        <p class="icon1"><a href="https://twitter.com/JanfelG">
+            <i class="bi bi-twitter"></i></a></p>
+        <p class="icon1"><a href="https://mail.google.com/mail/u/0/#inbox">
+            <i class="bi bi-google"></i></a></p>
+    </div>
+    <div class="box1">
+        <div class="subscribe-box">
+            <h1>Subscribe</h1>
+            <h4>Email or phone no. :</h4>
+            <input type="email" name="" id="" placeholder="Enter Email or phone no">
+            <h4>Password: </h4>
+            <input type="password" name="" id="" placeholder="Enter your password">
+            <h5><a href="#">Forgot Password</a></h5>
+            <button type="button">Subscribe</button>
+        </div>
+    </div>
+    </div>
+</div>

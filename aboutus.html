@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>The Happy Path</title>
+    <style>
+        .box {
+            width: 930px;
+            height: 530px;
+            background: transparent;
+            box-shadow: 0 0 10px rgb(224, 224, 200);
+            backdrop-filter: blur(2px);  
+        }
+        nav {
+            width: 60%;
+            background-color: orangered;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+           
+            border-bottom-right-radius: 20px;
+        }
+        nav ul li{
+            list-style: none;
+            display: inline-block;
+            margin: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            transition: ease;
+        }
+        nav ul li a:hover {
+            color: black;
+        }
+        .desc {
+            width: 410px;
+            height: 340px;
+            margin: 40px;
+            border: 5px solid white;
+            border-radius: 5%;
+            padding: 10px 10px;
+            background: rgb(41, 41, 78);
+        }
+        .desc:hover{
+            border: 5px solid orangered;
+        }
+        .desc h1 {
+            color: orangered;
+            margin-bottom: 30px;
+            margin-top: 1px;
+            text-align: center;
+        }
+        .desc p {
+            color: white;
+        }
+        .desc button {
+            padding: 6px 18px;
+            border: none;
+            outline: none;
+            font-size: small;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Times New Roman';
+            margin: 20px 4px;
+            
+        }
+        .desc button:hover {
+            color: white;
+            background: orangered;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div style="background-image: url(2.jpg);
+        background-position: center; background-size: cover;">     
+    
+    <div class="box">
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ABOUT US</a></li>
+                <li><a href="contactus.html">CONTACT US</a></li>
+                <li><a href="stories.html">STORIES</a></li>
+            </ul>
+        </nav>
+         
+         <div class="desc">
+             <h1>Welcome!</h1>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo eveniet explicabo eum numquam error quaerat 
+            corrupti consequatur, quas quia hic! Labore illum vel, sed quis possimus harum neque ratione minus!
+            Lorem ipsum Incidunt corrupti placeat cumque voluptatibus autem optio explicabo excepturi, neque animi doloribus distinctio laudantium tempora, necessitatibus, culpa assumenda labore eveniet? Distinctio, harum!
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque, quasi necessitatibus rem neque dolores alias corporis praesentium quaerat, culpa nemo placeat libero qui veritatis aliquid officia voluptates tempore blanditiis ipsam?</p>
+            <button type="button">Like Page</button>
+            <button type="button">Learn More</button>
+            <button type="button">FOLLOW US</button>
+         </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
